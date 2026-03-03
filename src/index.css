@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@plugin "@tailwindcss/postcss";
+
+@theme {
+  --font-sans: "Outfit", sans-serif;
+  --color-fafello-red: #DC2626;
+  /* Red-600 */
+  --color-fafello-yellow: #FBBF24;
+  /* Amber-400 */
+  --color-fafello-olive: #3B5323;
+  /* Deep Olive Green */
+  --color-fafello-bg: #FAFAFA;
+  /* Zinc-50 */
+  --color-fafello-text: #18181B;
+  /* Zinc-900 */
+  --font-cairo: "Cairo", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
